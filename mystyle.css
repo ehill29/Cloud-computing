@@ -4,3 +4,32 @@ h1 {
     font-size: 52px;
     font-style: oblique;
 }
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+img {
+    border-radius: 25px;
+  background: url(football.jpg);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: orchid;
+  }
+
+  th {
+    text-align: center;
+    height: 40px;
+  }

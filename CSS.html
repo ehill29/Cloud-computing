@@ -7,7 +7,51 @@
     <body>
 
     <h1>My Page</h1>
-    <p>My first paragraph.</p>
+    <ul>
+        <li><a href="#home">Home</a><li>
+        <li><a href="menu">Menu</a><li>
+        <li><a href="about us">About Us</a><li>
+        <li><a href="updates">Updates</a><li>
+    </ul>
+    <img src="football.jpg" alt="football">
+
+    <table>
+        <style>
+            table, th, td {
+              border:1px solid black;
+            }
+            tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+            </style>
+        <tr>
+          <th>Corner 1</th>
+          <th>Corner 2</th>
+          <th>Corner 3</th>
+          <th>Corner 4</th>
+        </tr>
+        <tr>
+          <td>Ramsey</td>
+          <td>Humphrey</td>
+          <td>Terrell</td>
+          <td>Diggs</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>44</td>
+          <td>22</td>
+          <td>7</td>
+        </tr>
+      </table>
+
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="James"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Jones"><br><br>
+        <input type="submit" value="Submit">
+        <input type="button" value="Submit"
+      </form> 
 
     </body>
 </html>
