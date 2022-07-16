@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="JavaScript.css">
+        <title>Assignment 6</title>
+    </head>
+        <body>
+            <h1>Assignment 6</h1>
+
+            <input type = 'text' id = 'name'></input>
+            <input type = 'button' onclick="total[0]" value = 'enter'></input><br>
+            <input type = 'text' id = 'name'></input>
+            <input type = 'button' onclick = 'total[1]' value = 'enter'
+
+            <br>
+
+            <p></p>
+
+            <table id = 'total'></table>
+
+
+        <script>
+
+        numbers = [0,1,2]
+
+        products = ['nike','jordan','adidas']
+        quanity = [2,3,4]
+        price = [100,250,90]
+        
+        text ='<tr><th>Shoe Brand</th><th>Quanity</th><th>Price</th></tr>'
+
+        for (let i = 0; i < products.length; i++) {
+            text = text + '<tr>'
+
+            total = price[i] * quanity[i]
+
+            text = text + '<td>' + products[i] + '<td>' 
+            text = text + '<td>' + price[i] + '<td>'
+            text = text + '<td>' + quanity[i] + '<td>'
+            text = text + '<td>' + total + '<td>'    
+            
+
+            text = text + '<tr>'
+            console.log(text)
+        }
+
+
+        document.getElementById('total').innerHTML = text
+
+
+        </script>
+
+
+        </body>
+</html>
